@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta charset="utf-8">
+    <title>Seda Inside</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#29434e">
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-indigo.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <style>
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        p, a {
+            font-size: 1.5em;
+        }
+        h5 {
+            font-size: 1.6em;
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        .bg {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .pink {
+            color: #EFB9D1;
+        }
+        .gray {
+            color: #707070;
+        }
+        .animate-bottom {
+            position: relative;
+            -webkit-animation-name: animatebottom;
+            -webkit-animation-duration: 1s;
+            animation-name: animatebottom;
+            animation-duration: 1s
+        }
+        @-webkit-keyframes animatebottom {
+            from { bottom:-100px; opacity:0 }
+            to { bottom:0px; opacity:1 }
+        }
+        @keyframes animatebottom {
+            from{ bottom:-100px; opacity:0 }
+            to{ bottom:0; opacity:1 }
+        }
+        @media screen and (max-width: 1024px){
+            .mdl-layout__header {
+                display: inherit;
+            }
+        }
+    </style>
+<style type="text/css" id="dcoder_stylesheet">
+    body{
+    background-color: #444444;
+    }
+    h1{
+    color: #e2e2e2;
+    }
+    .dcoder{
+    	color: #777777;
+    }
+    </style>
+<body style="background-color:#29434e">
+
+    <header id="nav" class="mdl-layout__header" style="position:fixed;width:100%;z-index:2;background-color:#29434e;color:white">
+        <div class="mdl-layout-icon" style="text-align:right;" onclick="document.getElementById('lname').click();"><img src="images/Seda_logo.png" height="100%"></div>
+        <div class="mdl-layout__header-row">
+            <a class="mdl-navigation__link" href="#b0" id="lname"><span onclick="document.getElementById('lname').click();" class="mdl-layout-title">Seda inside</span></a>
+            <div class="mdl-layout-spacer"></div>
+            <div>
+               
+            </div>
+        </div>
+    </header>
+
+    <div id="loading" style="height:100%;background-color:#29434e;position:fixed;z-index:1;"></div>
+
+    <main class="mdl-layout__content animate-bottom" style="width:100%;display:none;" id="main">
+      
+       
+        
+        <div id="b2a" style="background-color:#ffffff;padding:3em;color:black;">
+            <div class="mdl-grid" style="padding-top:5em;padding-bottom:3em;">
+                <div class="mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet mdl-cell--4-col-phone" style="text-align:center">
+                <img src="images/I1.png" width="100%" style="max-width:256px;">                   
+                    <h2><b class="pink">Seda Inside</b></h2>
+                    <h4 class="gray">TEAM</h4>
+                    <hr class="mdl-cell--hide-desktop">
+                </div>
+                <div class="mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--4-col-phone" style="text-align:left">
+                    <p><b>Seda Inside</b>는 다양한 분야에서 활동하며 대중들에게 팀원들의 재능을 알리고 다양한 매체를 통해 긍정적인 영향을 미치도록하기위해 결성된 팀입니다.</p>
+                    <br>                     
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div id="b3" style="background-color:white;padding:3em;text-align:center;" class="bg">
+            <h2>활동분야</h2>
+            <br>
+            <div class="mdl-grid">
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                    <img src="images/I1.png" width="100%" style="max-width:256px;">
+                    <h3 class="pink">Seda Games</h3>
+                    <p>설명</p>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                    <img src="images/I2.png" width="100%" style="max-width:256px;">
+                    <h3 class="pink">Seda Music</h3>
+                    <p>설명</p>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                    <img src="images/I3.png" width="100%" style="max-width:256px;">
+                    <h3 class="pink">Seda Video or something?</h3>
+                    <p>설명</p>
+                </div>
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </div>
+        </div>
+        
+                <div class="mdl-layout-spacer"></div>
+            </div>
+     
+         
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </div>
+        <div style="background:linear-gradient(#fafafa ,#29434e);height:300px;"></div>
+        <div id="contact" style="background-color:#29434e;padding:3em;padding-top:6em;position:inherit;color:white;">
+            <br />
+            <h3 style="text-align:center;">Members</h3>
+            <div class="mdl-grid" style="text-align:center;">
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+                    <div class="mdl-card mdl-shadow--2dp" style="background:url('images/D_wjcloud.jpg') center / cover;background-color:#29434e;color:white;width:100%;cursor:pointer">
+                        <div class="mdl-card__title mdl-card--expand"></div>
+                        <div class="mdl-card__actions" style="height:52px;padding:16px;background:rgba(0, 0, 0, 0.4);">
+                            <span>박세현(ACDI)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+                    <div class="mdl-card mdl-shadow--2dp" style="background:url('images/D_esup.jpg') center / cover;background-color:#29434e;color:white;width:100%;cursor:pointer">
+                        <div class="mdl-card__title mdl-card--expand"></div>
+                        <div class="mdl-card__actions" style="height:52px;padding:16px;background:rgba(0, 0, 0, 0.4);">
+                            <span>황현웅(Daneog)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+                    <div class="mdl-card mdl-shadow--2dp" style="background:url('images/D_chalkman.jpg') center / cover;background-color: #29434e;color:white;width:100%;cursor:pointer">
+                        <div class="mdl-card__title mdl-card--expand"></div>
+                        <div class="mdl-card__actions" style="height:52px;padding:16px;background:rgba(0, 0, 0, 0.4);">
+                            <span>황재용(Nickname)</span>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="mdl-layout-spacer"></div>
+            </div>
+           
+        
+    </main>
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script>
+        window.onload = function(){
+            getreq();
+            document.getElementById("main").style.display = "";
+            document.getElementById("loading").style.display = "none";
+            var h = window.innerHeight;
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop:$(hash).offset().top
+                    }, 2000, 'easeInOutQuint');
+                }
+            });
+        }
+        function min(id) {
+            var child = document.getElementById(id);
+            child.classList.remove("mdl-shadow--2dp");
+            child.classList.add("mdl-shadow--12dp");
+            child.children[1].style.background = "rgba(0, 0, 0, 0.8)"
+        }
+        function mout(id) {
+            var child = document.getElementById(id);
+            child.classList.remove("mdl-shadow--12dp");
+            child.classList.add("mdl-shadow--2dp");
+            child.children[1].style.background = "rgba(0, 0, 0, 0.2)"
+        }
+        function corsreq(method, url) {
+            var xhr = new XMLHttpRequest();
+            if ("withCredentials" in xhr) {
+                xhr.open(method, url, true);
+            } else if (typeof XDomainRequest != "undefined") {
+                xhr = new XDomainRequest();
+                xhr.open(method, url);
+            } else {
+                xhr = null;
+            }
+            return xhr;
+        }
+        function getreq() {
+            var req = corsreq("get", "https://blockchain.info/q/getblockcount");
+            if (req) {
+                req.onload = function() {
+                    var distance = req.responseText;
+                    document.getElementById("clock").innerHTML = distance;
+                    if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("ct").style.display = "none";
+                        document.getElementById("ct1").style.display = "";
+                    }
+                };
+                req.send();
+            }
+        }
+        //var countDownDate = new Date("Dec 23, 2017 00:00:00").getTime();
+        var x = setInterval(function() {
+            //var now = new Date().getTime();
+            //var distance = countDownDate - now;
+            //var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            //var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            //var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            //var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            //document.getElementById("clock").innerHTML = days + "d " + hours + "h "
+            //+ minutes + "m " + seconds + "s ";
+            getreq();
+        }, 60000);
+    </script>
+</body>
+</html>
+
+                
